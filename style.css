@@ -1,0 +1,27 @@
+div#photos {
+	margin: 0 auto;
+	text-align: center;
+}
+.full {
+	height: 400px;
+	background-size: cover;
+	width: 700px;
+	margin: 0 auto;
+	display: block;
+}
+
+.thumb {
+	height: 100px;
+	width: 200px;
+	margin: 50px 50px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+.fullscreen {
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
